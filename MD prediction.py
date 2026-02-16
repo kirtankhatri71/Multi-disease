@@ -3,8 +3,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # load models
-diabetes_data = pickle.load(open("C:/Users/DELL/OneDrive/Desktop/Health project (multi disease)/diabetes_trained_model.sav","rb"))
-heart_data = pickle.load(open("C:/Users/DELL/OneDrive/Desktop/Health project (multi disease)/heart_trained_model.sav","rb"))
+diabetes_data = pickle.load(open("diabetes_trained_model.sav","rb"))
+heart_data = pickle.load(open("heart_trained_model.sav","rb"))
 
 # side bar navigates
 with st.sidebar:
